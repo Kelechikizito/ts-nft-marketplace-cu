@@ -74,7 +74,7 @@ export default function BuyNftPage() {
         hash: purchaseHash,
     })
 
-    // Check if NFT is actually listed (price > 0)
+    // Check if NFT iss actually listed (price > 0)
     const isListed = price && BigInt(price) > BigInt(0)
 
     // Handle approve token
